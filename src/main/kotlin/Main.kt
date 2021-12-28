@@ -8,15 +8,15 @@ fun main(args: Array<String>) {
 */
 
 //Variables
-fun main() {
-    /*
+/*fun main() {
+    *//*
     * There are two types of variables
     * VAR - these variables are mutable and can be reassigned later.
     * VAL - these are local read only variables - can be defined only once.
-    * */
+    * *//*
     var name: String = "Nate"
     name = "Anirudh"
 
     println(name)
-}
+}*/
 
