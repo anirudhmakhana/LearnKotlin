@@ -8,6 +8,7 @@ case block.
 
 var variable: String? = null
 fun main() {
+    //these can also be used to assign variable to a specific value
     when(variable){
         null -> println("Hello")
         else -> println(variable)
