@@ -9,14 +9,22 @@ variable.
 //Global variables declaration
 var s1: String = "Anriudh"
 var s2: String? = "GeeksforGeeks"
-
+var greeting: String? = null
 var nullString = null //of type Nothing? Better to be explicit with type in this scenario.
 
 fun main() {
-    s1 = null // compilation error
-
+    //s1 = null // compilation error
     s2 = null // ok
     print(s2)
+
+
+    //control flow if the variable is nullable type.
+    if(greeting != null){
+        println(greeting)
+    }else{
+        print("hi")
+    }
+
 
 }
 
