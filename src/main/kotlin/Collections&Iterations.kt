@@ -18,4 +18,10 @@ fun main() {
     interestingThings.forEachIndexed { index, interestingThing ->
         println("$interestingThing is indexed at $index" )
     }
+
+    //----------------------List------------------------------
+    val interestingThingsList = listOf<String>("Kolin", "Programming", "Language")
+
+    val map = mapOf(1 to "a", 2 to "b", 3 to "c")
+    map.forEach { (key, value) -> println("$key -> $value") }
 }

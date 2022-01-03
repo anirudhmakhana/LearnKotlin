@@ -20,3 +20,7 @@ fun main(args: Array<String>) {
     println(name)
 }*/
 
+fun main() {
+    val person = Person("Anirudh", "Makhana")
+    person.firstname
+}
